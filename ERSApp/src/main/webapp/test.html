@@ -1,0 +1,176 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Expense Reimbursement Service</title>
+
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h1>Welcome Man</h1>
+    </header>
+
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-md-8 text-center">
+            <div class="card text-center">
+
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item" id="pendingTab"><a id="allEmployees" class="nav-link active">Employees</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID#</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="employees">
+
+                            <tr id="425266458">
+                                <td>425266458</td>
+                                <td>Employee7 Last10</td>
+                                <td>email58@email.com</td>
+                            </tr>
+                            <tr id="129048149">
+                                <td>129048149</td>
+                                <td>Employee76 Last91</td>
+                                <td>email87@email.com</td>
+                            </tr>
+                            <tr id="864075700">
+                                <td>864075700</td>
+                                <td>Employee68 Last61</td>
+                                <td>email54@email.com</td>
+                            </tr>
+                            <tr id="257012106">
+                                <td>257012106</td>
+                                <td>Employee66 Last98</td>
+                                <td>email5@email.com</td>
+                            </tr>
+                            <tr id="709507230">
+                                <td>709507230</td>
+                                <td>Employee22 Last67</td>
+                                <td>email27@email.com</td>
+                            </tr>
+                            <tr id="653700758">
+                                <td>653700758</td>
+                                <td>Employee78 Last52</td>
+                                <td>email4@email.com</td>
+                            </tr>
+                            <tr id="123456789">
+                                <td>123456789</td>
+                                <td>Action Jackson</td>
+                                <td>aj@hotmail.com</td>
+                            </tr>
+                            <tr id="nestedTable">
+                                <td></td>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Requesting</th>
+                                            <th>Status</th>
+                                            <th>Reason</th>
+                                            <th>Receipt</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>$89.75</td>
+                                            <td>Pending</td>
+                                            <td>food</td>
+                                            <td>N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$150.99</td>
+                                            <td>Pending</td>
+                                            <td>events</td>
+                                            <td>N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$800.00</td>
+                                            <td>Pending</td>
+                                            <td>other</td>
+                                            <td>N/A</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$4.20</td>
+                                            <td>Pending</td>
+                                            <td>supplies</td>
+                                            <td>RECEIPT LINK</td>
+                                        </tr>
+                                        <tr>
+                                            <td>$1.00</td>
+                                            <td>Accepted</td>
+                                            <td>food</td>
+                                            <td>N/A</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <td></td>
+                            </tr>
+                            <tr id="234034114">
+                                <td>234034114</td>
+                                <td>Employee95 Last86</td>
+                                <td>email62@email.com</td>
+                            </tr>
+                            <tr id="238848451">
+                                <td>238848451</td>
+                                <td>Employee16 Last45</td>
+                                <td>email58@email.com</td>
+                            </tr>
+                            <tr id="358113727">
+                                <td>358113727</td>
+                                <td>Employee49 Last39</td>
+                                <td>email31@email.com</td>
+                            </tr>
+                            <tr id="647816211">
+                                <td>647816211</td>
+                                <td>Employee37 Last27</td>
+                                <td>email68@email.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 text-center">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="optionMenu" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Options</button>
+                <div class="dropdown-menu" aria-labelledby="optionMenu">
+                    <a class="dropdown-item" type="button" href="request">Approve/Deny pending requests</a>
+                    <a class="dropdown-item" type="button" href="info">My Info</a>
+                    <a class="dropdown-item" type="button" href="logout">Sign out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

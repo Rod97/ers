@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		
+</head>
+
+<body>
+
+	<header class="navbar">
+		<h1 id="headerName">Welcome placeholder_EmployeeName</h1>
+	</header>
+
+
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-md-8">
+			<div class="card" id="info-card">
+				<div class="card-header">
+					Basic Info
+				</div>
+				<div class="card-body" id="info">
+					<table class="table">
+						<tr>
+							<th scope="row">Name</th>
+							<td id="name">placeholder_EmpNameFirstLast</td>
+						</tr>
+						<tr>
+							<th scope="row">Employee ID</th>
+							<td id="empID">placeholder_EmpID</td>
+						</tr>
+						<tr>
+							<th scope="row">Email</th>
+							<td id="empEmail">placeholder_EmpEmail</td>
+						</tr>
+						
+					</table>
+					<div class="row">
+						<div class="col-md-9"></div>
+						<div class="col-md-3"><button class="btn btn-primary" id="update/submit" onclick="updateInfo()">Update</button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" id="optionMenu" data-toggle="dropdown"
+					aria-haspopup="true" aria-expanded="false">Options</button>
+				<div class="dropdown-menu" aria-labelledby="optionMenu">
+					<a class="dropdown-item" type="button" href="employee">Home</a>
+					<a class="dropdown-item" type="button" href="request">Submit a new
+						request</a>
+					<a class="dropdown-item" type="button" href="logout">Sign out</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="ers.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
